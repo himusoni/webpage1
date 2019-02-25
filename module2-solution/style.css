@@ -7,15 +7,8 @@ header{
 	text-align: center;
 	margin-top: 30px;
 	margin-bottom: 50px;
-}
-<<<<<<< HEAD
+}	
 section>header{
-=======
-body
-{	
-section > header{
-
->>>>>>> d87bd90ad5e6a4615079d0d97aacd2135f7abbd9
 	font-size: 125%;
 	color:slateblue;
 	float:right;
@@ -30,7 +23,7 @@ section{
 	margin: 15px;
 	box-sizing: border-box;
 	background-color: lightpink;
-    float:left;
+        float:left;
 }
 @media (min-width: 992px){
 	section{
@@ -39,10 +32,5 @@ section{
 }
 p{
 	color:black;
-<<<<<<< HEAD
 }
-=======
-}
-}
-	
->>>>>>> d87bd90ad5e6a4615079d0d97aacd2135f7abbd9
+
