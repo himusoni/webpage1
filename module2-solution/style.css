@@ -1,3 +1,6 @@
+body{
+	font-family: cursive;
+}
 header{
 	font-size: 175%;
 	color:hotpink;
@@ -5,26 +8,24 @@ header{
 	margin-top: 30px;
 	margin-bottom: 50px;
 }
-section > header{
-
+section>header{
 	font-size: 125%;
 	color:slateblue;
-	text-align:right;
-	
-	
+	float:right;
+	background-color:orange;
 	margin: 0px;
+	border:2px solid orange;
+	padding:7px;
 }
 section{
-	
 	border:2px solid orange;
 	padding:10px;
 	margin: 15px;
 	box-sizing: border-box;
 	background-color: lightpink;
     float:left;
-
 }
-@media (min-width: 902px){
+@media (min-width: 992px){
 	section{
 		width:30%;
 	}
@@ -32,5 +33,3 @@ section{
 p{
 	color:black;
 }
-
-	
