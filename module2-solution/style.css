@@ -7,27 +7,47 @@ header{
 	text-align: center;
 	margin-top: 30px;
 	margin-bottom: 50px;
-}	
+}
 section>header{
 	font-size: 125%;
 	color:slateblue;
+	position:relative;
 	float:right;
 	background-color:orange;
-	margin: 0px;
-	border:2px solid orange;
-	padding:7px;
+	margin-top: -12px;
+	margin-right:-12px;
+	margin-bottom:0px;
+	padding-left:30px;
+	padding-right:30px;
+	padding-top:2px;
+	padding-bottom:5px;
+	border:2px solid slateblue;
 }
 section{
-	border:2px solid orange;
-	padding:10px;
-	margin: 15px;
+	border:2px solid slateblue;
+	padding:11px;
+	margin: 16px;
 	box-sizing: border-box;
 	background-color: lightpink;
-        float:left;
+    float:left;
 }
 @media (min-width: 992px){
 	section{
 		width:30%;
+	}
+}
+@media (min-width: 768px) and (max-width:992px ){
+	section{
+		width:45%;
+		float:left;
+	}
+	section.tit{
+        width:94%;
+	}
+}
+@media (max-width: 767px){
+	section{
+		width:95%;
 	}
 }
 p{
