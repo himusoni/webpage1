@@ -41,7 +41,7 @@ ajaxUtils.sendGetRequest =
 function handleResponse(request,
                         responseHandler,
                         isJsonResponse) {
-  if ((request.readyState == 4) &&
+  if ((request.readyState == 1) &&
      (request.status == 200)) {
 
     // Default to isJsonResponse = true
